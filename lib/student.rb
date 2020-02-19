@@ -38,6 +38,6 @@ class Student
   end 
   
   def create(name:, grade:)
-    student = Student.new(name)
+    student = Student.new(name, grade)
   
 end
